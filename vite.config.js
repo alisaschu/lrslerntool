@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: "/lrslerntool/",
   build: {
     chunkSizeWarningLimit: 1000, // Grenze für die Größenwarnung von Chunks (in KB)
     rollupOptions: {
