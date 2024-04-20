@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'MagicalNeverlandRegular';
+    src: url('./fonts/MagicalNeverlandRegular-JpRZ7.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'TwistedHalloween';
+    src: url('./fonts/TwistedHalloweenPersonalRegular-eZa8n.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tiresias_PCfont';
+  src: url('./fonts/Tiresias_PCfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LexieReadable-Regular';
+  src: url('./fonts/LexieReadable-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

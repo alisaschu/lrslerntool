@@ -1,0 +1,11 @@
+Model Information:
+* title:	Jar with magic beans
+* source:	https://sketchfab.com/3d-models/jar-with-magic-beans-87cc5a935ec64deaa1de333bba9cd882
+* author:	Mirriliem (https://sketchfab.com/Mirriliem)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Jar with magic beans" (https://sketchfab.com/3d-models/jar-with-magic-beans-87cc5a935ec64deaa1de333bba9cd882) by Mirriliem (https://sketchfab.com/Mirriliem) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

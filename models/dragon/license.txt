@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dargon_anyingxunlong
+* source:	https://sketchfab.com/3d-models/dargon-anyingxunlong-4a9acf66daa74da0a76b0424b5ef06bd
+* author:	H4NS (https://sketchfab.com/fathanramadhan646)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dargon_anyingxunlong" (https://sketchfab.com/3d-models/dargon-anyingxunlong-4a9acf66daa74da0a76b0424b5ef06bd) by H4NS (https://sketchfab.com/fathanramadhan646) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	The Traveler's Broomstick
+* source:	https://sketchfab.com/3d-models/the-travelers-broomstick-995c407724b14bfdb8f4025f4a27a41b
+* author:	Harri3D (https://sketchfab.com/harrisondorn)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "The Traveler's Broomstick" (https://sketchfab.com/3d-models/the-travelers-broomstick-995c407724b14bfdb8f4025f4a27a41b) by Harri3D (https://sketchfab.com/harrisondorn) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

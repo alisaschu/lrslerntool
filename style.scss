@@ -1,0 +1,257 @@
+@import url('fonts.css'); 
+
+@keyframes wobble {
+    0% { 
+        transform: rotateZ(0deg); 
+      }
+      10% { 
+        transform: rotateZ(0deg); 
+      }
+      11% {
+        transform: rotateZ(30deg);
+      }
+      12% {
+        transform: rotateZ(-30deg);
+      }
+      13% {
+        transform: rotateZ(30deg);
+      }
+      14% {
+        transform: rotateZ(0deg);
+      }
+      100% {
+        transform: rotateZ(0deg);
+      }
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header-start,
+section {
+ //   outline: 1px solid red;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-bg: rgba(15, 15, 15, 0.95);
+    --spacing: 350px;
+  
+    font-family: 'MagicalNeverlandRegular', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    width: 100vw;
+    color: white;
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    margin: 0px auto;
+    h1 {
+        font-family: 'TwistedHalloween', sans-serif;
+        font-size: 50px;
+    }
+    h2 {
+        font-family: 'TwistedHalloween', sans-serif;
+        font-size: 50px;
+    }
+    p, strong, a, button {
+        font-size: 20px;
+        font-family: 'Tiresias_PCfont', sans-serif;
+    }
+    .header-start {
+        height: 100vh;
+        width: 100vw;
+        color: #fff;
+        z-index: 99;
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+}
+section {
+    height: 100vh;
+    position: relative;
+    .container {
+        max-width: 1360px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    .bl-background {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+.uebersicht {
+    .col-12 {
+        text-align: center;
+        .bl-background {
+            margin-bottom: 20px;
+            margin-right: 80px;
+            margin-left: 80px;
+        }
+    }
+    .col-4 {
+        text-align: center; 
+        display: flex;
+        flex-direction: column;
+        h3, p {
+            font-weight: bold;
+        }
+    }
+    .bl-background {
+        flex-grow: 1;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}  
+
+section.kein-abst .container {
+    margin-bottom: 0;
+}
+
+.btn-infoline .info-answer{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+section .container.level-container {
+    margin-top: 0;
+    .level-h2 {
+        margin-top: 30px;
+        span {
+            font-family: sans-serif;
+        }
+    }
+    .check-answer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    svg {
+        fill: white;
+        width: 30px;
+        margin-left: 3px;
+        margin-bottom: 5px;
+        animation: wobble 30s linear infinite;
+        &:hover {
+            cursor: pointer; /* Mauszeiger auf Zeiger ändern */
+            animation-play-state: paused; /* Animation beim Hover anhalten */
+        }
+    }
+    .info-answer.lev1 {
+        margin-top: 270px;
+        padding-right: 150px;
+    }
+    .info-answer.lev1,
+    .lev2 {
+        margin-top: 180px;
+        padding-right: 60px;
+        padding-left: 50px;
+    }
+    a.lev1 {
+        display: none;
+        margin-left: 50px;
+    }
+    .info-answer.lev3 {
+        margin-top: 350px;
+    }
+    
+}
+.back {
+    display: flex;
+    a {
+        margin-left: 20px;
+        margin-top: 20px;
+        color: #fff;
+        font-size: 20px;
+        &:hover {
+            text-decoration: none;
+        }
+        i {
+            margin-right: 10px;
+        }
+    }
+}
+
+
+.slot.gap-slot {
+    outline: 1px solid;
+    width: 30px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+  
+.word {
+    display: flex;
+}
+  
+#drop-target p {
+    line-height: 1px;
+    margin: 0;
+    padding: 0;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+  
+.let-slot.slot {
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.letters {
+    margin: 20px;
+    outline: 1px solid;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    &.active {
+        background: white;
+        color: black;
+    }
+}
+
+.word-inner {
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.word-letter {
+    margin-right: 2px;
+    margin-left: 2px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+footer {
+    background: rgba(0,0,0, 0.5);
+    .col-4 {
+        height: 50px;
+        padding-top: 6px;
+        a {
+            color: #fff;
+        }
+    }
+  }
+
+  main.liz-main {
+    background: rgba(0,0,0,0.9);
+    section {
+        height: 100%;
+    }
+  }
+
+

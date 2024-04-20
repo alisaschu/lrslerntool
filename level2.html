@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src='https://kit.fontawesome.com/7d9713170b.js' crossorigin='anonymous'></script>
+    <title>Level 2 - </title>
+  </head>
+  <body>
+    <canvas id="bg"></canvas>
+    <main> 
+      <div class="back">
+        <a href="http://localhost:5173/#level"><i class='fas fa-arrow-left' style='font-size:36px'></i>Zurück zu Übersicht</a>
+      </div>
+        <section class="kein-abst">
+          <div class="container level-container">
+            <div class="row">
+              <div class="col-lg-6 offset-1">
+              <h2 class="level-h2">Level <span>2</span> - Hilfe ein Drache!</h2>
+              <p>Harry und Hagrid sind im Wald von Hogwarts unterwegs, um den verzauberten Nektar zu finden.
+                Plötzlich taucht ein Drache auf! Hilf Harry, den richtigen Buchstaben ins Wort einzusetzen, um sich an den Einschlafzauber zu erinnern und den Drachen zu bezwingen!
+              </p>
+              <div class="word">
+                <strong class="word-inner">rememb</strong>
+                <div class="slot gap-slot" id="drop-target">
+                    <p> </p>
+                </div>
+                <strong class="word-inner">r</strong>
+              </div>
+              <div class="slot let-slot">
+                  <p class="letters e-letter" draggable="true">e</p>
+                  <p class="letters i-letter" draggable="true">i</p>
+                  <p class="letters a-letter" draggable="true">a</p>
+                  <p class="letters ou-letter" draggable="true">ou</p>
+              </div>
+                <div class="d-flex btn-infoline">
+                  <button class="btn btn-light check-answer">Antwort prüfen</button>
+                  <div class="info-answer"></div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="info-answer lev2"></div>
+                <a href="http://localhost:5173/level3.html" class="btn btn-light check-answer lev1">Zum nächsten Level</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div class="col-4 offset-4">
+            <a href="http://localhost:5173/lizensen.html">Lizensen</a>
+          </div>
+        </footer>
+      </main>
+    <script type="module" src="/level2.js"></script>
+  </body>
+</html>

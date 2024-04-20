@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dark magic potion
+* source:	https://sketchfab.com/3d-models/dark-magic-potion-f8f2974eb1a144e48559b0fd3944ce2d
+* author:	r.m.kowalewski (https://sketchfab.com/r.m.kowalewski)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dark magic potion" (https://sketchfab.com/3d-models/dark-magic-potion-f8f2974eb1a144e48559b0fd3944ce2d) by r.m.kowalewski (https://sketchfab.com/r.m.kowalewski) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
